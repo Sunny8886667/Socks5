@@ -120,7 +120,7 @@ chmod +x /usr/local/bin/s5
 #设置默认用户名、默认开启帐号验证
 uname="123456"
 upasswd="654321"
-port="5555"
+port="8888"
 confFile=/etc/opt/ss5/ss5.conf
 echo -e $uname $upasswd >> /etc/opt/ss5/ss5.passwd
 sed -i '87c auth    0.0.0.0/0               -               u' $confFile
@@ -199,7 +199,7 @@ echo "默认用户名: "${uname}
 echo "默认密码  : "${upasswd}
 echo "默认端口  : "${port}
 echo ""
-echo "添加Telegram群组@Socks55555及时获取更新"
+echo "有问题请添加此脚本作者Telegram:@Bill_999及时获取更新"
 echo ""
 exit 0
 fi
